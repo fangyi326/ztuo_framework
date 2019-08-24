@@ -1,0 +1,81 @@
+
+通用路径 /admin/HTL_plate/
+
+
+
+
+
+initPalte数据详情
+路径 detail/{id}
+参数类型 pathvalue
+请求方式 get
+示例
+    /admin/init/detail/3
+返回示例
+{
+    "data": {
+        "id": 2,
+        "symbol": "HTL/ETH",
+        "finalPrice": "0.000759224",
+        "initPrice": "0.000459224",
+        "relativeTime": "1000",
+        "interferenceFactor": "40"
+    },
+    "code": 0,
+    "message": "success",
+    "totalPage": null,
+    "totalElement": null
+}
+
+
+initPalte数据修改
+路径 update
+参数类型 form-data
+请求方式 post
+参数
+    id                  必传        主键        3
+    symbol              必传        交易对        BTC/USDT
+    initPrice           必传        初始价格        6780
+    finalPrice          必传        最终价格        7230    二者不能相等
+    relativeTime        必传        相对时长        1000    
+    interferenceFactor  必传        干扰因子        50      0-70
+错误返回
+{
+    "data": null,
+    "code": 500,
+    "message": "不存在该记录",
+    "totalPage": null,
+    "totalElement": null
+}
+正确返回
+{
+    "data": null,
+    "code": 0,
+    "message": "修改成功",
+    "totalPage": null,
+    "totalElement": null
+}
+
+
+initPalte数据查询
+路径 query
+参数类型 form-data
+请求方式 post
+
+
+返回示例
+   {
+    "data": {
+        "id": 2,
+        "symbol": "HTL/ETH",
+        "finalPrice": "0.000759224",
+        "initPrice": "0.000459224",
+        "relativeTime": "1000",
+        "interferenceFactor": "40"
+    },
+    "code": 0,
+    "message": "success",
+    "totalPage": null,
+    "totalElement": null
+}
+
