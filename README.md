@@ -59,7 +59,7 @@ ZTuo 开源数字货币交易系统
 
 - [ztuo_web_admin](https://github.com/kuskyfei/ztuo_web_admin.git)
 
-- [ztuoexchange_操作手册](https://github.com/kuskyfei/ztuoexchange_caozuoshouce)
+- [ztuoexchange_操作手册](https://github.com/kuskyfei/ZTuoExchange_CaoZuoShouCe.git)
 
 
 
