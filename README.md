@@ -51,15 +51,15 @@ ZTuo 开源数字货币交易系统
 - 同时提供IOS和Android版本。
 
 ### 项目资源
-- [ztuo_framework](https://gitee.com/ZTuo_FFFF/ztuo_framework)
+- [ztuo_framework](https://github.com/kuskyfei/ztuo_framework.git)
 
-- [ztuo_wallet_rpc](https://gitee.com/ZTuo_FFFF/ztuo_wallet_rpc)
+- [ztuo_wallet_rpc](https://github.com/kuskyfei/ztuo_wallet_rpc.git)
 
-- [ztuo_web_web](https://gitee.com/ZTuo_FFFF/ztuo_web_web)
+- [ztuo_web_web](https://github.com/kuskyfei/ztuo_web_web.git)
 
-- [ztuo_web_admin](https://gitee.com/ZTuo_FFFF/ztuo_web_admin)
+- [ztuo_web_admin](https://github.com/kuskyfei/ztuo_web_admin.git)
 
-- [ZTuoExchange_操作手册](https://ztuo_ffff.gitee.io/ztuoexchange_caozuoshouce)
+- [ztuoexchange_操作手册](https://github.com/kuskyfei/ztuoexchange_caozuoshouce)
 
 
 
