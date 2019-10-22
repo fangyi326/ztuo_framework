@@ -66,7 +66,7 @@
 		<!-- Test Libs -->
 		<junit_version>4.12</junit_version>
 		<!--netty-->
-		<netty_version>4.1.22.Final</netty_version>
+		<netty_version>4.1.42.Final</netty_version>
 		<guava_version>21.0</guava_version>
 		<protostuff_version>1.5.4</protostuff_version>
 		<shiro_version>1.4.0</shiro_version>
